@@ -38,18 +38,21 @@
 #middle-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 #search-box {
     width: 30rem;
     border-radius: 1rem;
     padding: 0.8rem;
-    margin-bottom: 3rem;
-    
-    
+    margin-bottom: 3rem;    
 }
+input {
+    padding: 0.8rem;
+    font-size: 15px;
+}
+
 
  a {
    color: #111;
