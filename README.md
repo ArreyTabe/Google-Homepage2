@@ -14,3 +14,4 @@ By the end of this project, we should be able to
 * great improvement in applying general css rules
 * gradually gaining more competence in content (html)
 * i made somuch use of ggogle search 
+* basic use of developer tools
