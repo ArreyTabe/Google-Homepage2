@@ -1,3 +1,49 @@
-nav {
+ .nav-links-ul {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+ }
+
+    
+
+
+#nav-right-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-right: 1rem;
+      
+}
+
+#nav-left-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-right: 1rem;
+}
+#left-nav-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#right-nav-ul {
+   display: flex;
+    flex-direction: row;
+   justify-content: flex-end;
+}
+
+ nav#nav_ul li a {
+   color: #111;
+ }
+ 
+ 
+ 
+ ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
 }
