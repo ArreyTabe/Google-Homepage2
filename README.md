@@ -7,3 +7,5 @@ By the end of this project, we should be able to
 * How these elements are styled and aligned.
 * Appreciate the existence and usage of the developer tools.
 * Ready for continuous coding and become a pro
+
+### Skills learnt after undertaking this project
