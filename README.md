@@ -9,3 +9,8 @@ By the end of this project, we should be able to
 * Ready for continuous coding and become a pro
 
 ### Skills learnt after undertaking this project
+
+* i appreciate the use of flex box in displaying elements
+* great improvement in applying general css rules
+* gradually gaining more competence in content (html)
+* i made somuch use of ggogle search 
