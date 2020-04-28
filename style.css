@@ -95,9 +95,8 @@ footer {
     display: flex;
     padding-right: 10px;
 }
-
-#right-footer-ul a {
-   display: ;
+#main-footer-ul li.right {
+    float: right;
 }
 
 
