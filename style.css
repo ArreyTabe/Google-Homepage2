@@ -1,3 +1,6 @@
+main {
+    overflow-y: hidden;
+}
   /* to make the navbar elements be on same horizontal line*/
  .nav-links-ul {
     display: flex;
@@ -6,7 +9,7 @@
     text-align: center;
     margin: 0;
     padding: 0;
-    margin-bottom: 7rem;
+    margin-bottom: 6rem;
  }
  /* last four navbar elements*/
 #nav-right-links {
@@ -14,6 +17,7 @@
     flex-direction: row;
     justify-content: flex-start;
     padding-right: 1rem;
+    font-size: 15px;
 }
 /* first two navbar elements*/
  #nav-left-links {
@@ -21,6 +25,8 @@
     flex-direction: row;
     justify-content: flex-start;
     padding-right: 1rem;
+    font-size: 15px;
+
 }
 
 /* two saparate navbar elements as left and right*/
@@ -31,7 +37,7 @@
 }
 #right-nav-ul {
    display: flex;
-    flex-direction: row;
+   flex-direction: row;
    justify-content: flex-end;
 }
 
@@ -40,26 +46,61 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 12rem;
 }
 
 #search-box {
     width: 30rem;
-    border-radius: 1rem;
+    border-radius: 1.9rem;
     padding: 0.8rem;
-    margin-bottom: 3rem;    
+    margin-bottom: 3rem;   
+    box-sizing: border-box; 
 }
-input {
-    padding: 0.8rem;
+input#btn {
+    background-color: #d3d3d3;
+    padding: 0.7rem;
     font-size: 15px;
 }
-
-
- a {
+a {
    color: #111;
  }
  ul li {
-    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 a {
     text-decoration: none;
+} 
+
+footer {
+    background-color: #E1E1E1;
 }
+
+#main-footer-ul {
+    display: flex;
+   
+}
+
+#main-footer-ul a {
+    padding: 10px;
+}
+
+#left-footer-ul {
+    display: flex;
+    padding-left: 5px;
+}
+
+#right-footer-ul {
+    display: flex;
+    padding-right: 10px;
+}
+
+#right-footer-ul a {
+   display: ;
+}
+
+
+
+
+
